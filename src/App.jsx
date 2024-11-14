@@ -76,7 +76,12 @@ function App() {
           <nav className="w-full p-8 flex justify-between z-50">
             <div className="brand text-2xl font-md">thirtysixstudios</div>
             <div className="links flex gap-10">
-              {["Home", "About", "Projects", "Contact"].map((link, index) => (
+              {[
+                "What we do",
+                "Who we are",
+                "How we give back",
+                "Talk to us",
+              ].map((link, index) => (
                 <a
                   key={index}
                   href={`#${link.toLowerCase()}`}
