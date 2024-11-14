@@ -46,7 +46,7 @@ Ensure you have **Node.js** and **npm** installed.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/thirtysixstudio.git
+   git clone https://github.com/asynchronousJavascriptor/thirtysixstudio.git
    cd thirtysixstudio
    npm install
    npm run dev
