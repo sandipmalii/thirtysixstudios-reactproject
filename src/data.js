@@ -1,16 +1,16 @@
 export default [
-    [
+    [ 
         {
-            startIndex: 0,
-            numImages: 150,
-            duration: 3,
-            size: 188,
-            top: 16,
-            left: 17,
-            zIndex: 0,
+            startIndex: 0,       // Starting index for image sequence
+            numImages: 150,     // Total images in the sequence
+            duration: 3,        // Duration for one animation cycle (seconds)
+            size: 188,          // Canvas size in pixels
+            top: 16,            // Vertical position (%)
+            left: 17,           // Horizontal position (%)
+            zIndex: 0,          // Stack order
         },
         {
-            startIndex: 150,
+            startIndex: 150,    // Next image sequence start index
             numImages: 150,
             duration: 3,
             size: 221,
